@@ -3,7 +3,7 @@ LabVIEW TSVN_LvPlugin
 ==========================
 
 # 概要
-  LabVIEW開発環境のツールメニューにTortoiseSVNの Log/Add/Commit の項目
+  LabVIEW開発環境のツールメニューにTortoiseSVNの Log/Add/Commit/Export の項目
 を追加するためのプラグインVIです。
   LabVIEW用のTortoiseSVNツールキットといえば、ViewpointSystemsの
 TSVN Toolkitが有名ですが、そこまでしなくても、とりあえず編集中のVIのログが
