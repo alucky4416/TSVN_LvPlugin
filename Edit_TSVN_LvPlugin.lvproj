@@ -13,6 +13,7 @@
 		<Item Name="TSVN_Log_LvPlugin.vi" Type="VI" URL="../TSVN_Log_LvPlugin.vi"/>
 		<Item Name="TSVN_Commit_LvPlugin.vi" Type="VI" URL="../TSVN_Commit_LvPlugin.vi"/>
 		<Item Name="TSVN_Add_LvPlugin.vi" Type="VI" URL="../TSVN_Add_LvPlugin.vi"/>
+		<Item Name="TSVN_Export_LvPlugin.vi" Type="VI" URL="../TSVN_Export_LvPlugin.vi"/>
 		<Item Name="依存項目" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="System Exec.vi" Type="VI" URL="/&lt;vilib&gt;/Platform/system.llb/System Exec.vi"/>
