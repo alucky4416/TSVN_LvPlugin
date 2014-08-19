@@ -22,8 +22,8 @@ SVNへの登録等の操作は、TortoiseSVNを使って行ってください。
   LabVIEW 2009 で作成しています。Windows用です。
 
 ## インストール方法
-  TSVN_Add_LvPlugin.vi、TSVN_Commit_LvPlugin.vi、TSVN_Log_LvPlugin.vi の
-３つのファイルを LabVIEW インストールフォルダの所定の場所にコピーするだけです。
+  TSVN_Add_LvPlugin.vi、TSVN_Commit_LvPlugin.vi、TSVN_Log_LvPlugin.vi、TSVN_Export_LvPlugin.viの
+４つのファイルを LabVIEW インストールフォルダの所定の場所にコピーするだけです。
 
 ## インストールする場所
 LabVIEW 32bit版の場合、以下の場所にファイルをコピーします。
@@ -40,7 +40,7 @@ LabVIEW 32bit版の場合、以下の場所にファイルをコピーします�
 バージョンのprojectフォルダにコピーしてください。
 
   ファイルをコピーした後、LabVIEWを再起動すると、ツールメニューに
-"TSVN Add","TSVN Commit","TSVN Log" が表示されます。
+"TSVN Add","TSVN Commit","TSVN Log", "TSVN Export" が表示されます。
 
 ## 使い方
   すでにSVN管理されているソースファイルを、LabVIEWで開いて、開いた状態で
