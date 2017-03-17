@@ -1,31 +1,28 @@
-==========================
-LabVIEW TSVN_LvPlugin
-==========================
+# LabVIEW TSVN_LvPlugin
 
-# 概要
+## 概要
   LabVIEW開発環境のツールメニューにTortoiseSVNの Log/Add/Commit/Export の項目
 を追加するためのプラグインVIです。
   LabVIEW用のTortoiseSVNツールキットといえば、ViewpointSystemsの
-TSVN Toolkitが有名ですが、そこまでしなくても、とりあえず編集中のVIのログが
-見れて、add/commitの操作ができれば、という軽めの用途向け。
+TSVN Toolkitなどが有名ですが、そこまでしなくても、とりあえず編集中のVIのログが
+見られて、add/commitの操作ができれば、という軽めの用途向けに作成しました。
+自分で使ってます。
   TortoiseSVNのコマンドラインTortoiseProc.exeを呼び出しますので、
 TortoiseSVNがインストールされている必要があります。
   また、すでにSVN管理されているソース・ファイルが対象になります。
 SVNへの登録等の操作は、TortoiseSVNを使って行ってください。
 
-ちなみにTSVN Toolkitはこちら
-  http://www.viewpointusa.com/product/ni-labview-toolkits/tsvn-toolkit/
+### 対応する環境
+  LabVIEW 2009 で作成しており、LabVIEW 2009以上であれば動きます。
+  Windows用です。
 
-# インストール
+## インストール
 
-## 対応する環境
-  LabVIEW 2009 で作成しています。Windows用です。
-
-## インストール方法
+### インストール方法
   TSVN_Add_LvPlugin.vi、TSVN_Commit_LvPlugin.vi、TSVN_Log_LvPlugin.vi、TSVN_Export_LvPlugin.viの
 ４つのファイルを LabVIEW インストールフォルダの所定の場所にコピーするだけです。
 
-## インストールする場所
+### インストールする場所
 LabVIEW 32bit版の場合、以下の場所にファイルをコピーします。
 
 
@@ -42,8 +39,8 @@ LabVIEW 32bit版の場合、以下の場所にファイルをコピーします�
   ファイルをコピーした後、LabVIEWを再起動すると、ツールメニューに
 "TSVN Add","TSVN Commit","TSVN Log", "TSVN Export" が表示されます。
 
-## 使い方
-  すでにSVN管理されているソースファイルを、LabVIEWで開いて、開いた状態で
-ツールメニューから"TSVN ..."を選択すると、TortoiseSVNのログやコミット画面が
-表示されます。
-
+### 使い方
+  すでにSVN管理されているソースファイルを、LabVIEWで開き、該当VIファイルがアクティブの
+状態で、ツールメニューから"TSVN ..."のいずれかのメニューを選択すると、TortoiseSVNのログや
+コミット画面が表示されます。追加(add)は、裏で追加されるだけですので、エクスプローラで
+確認してください。
