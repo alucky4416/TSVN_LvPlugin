@@ -18,11 +18,23 @@ SVNへの登録等の操作は、TortoiseSVNを使って行ってください。
 
 ## インストール
 
-### インストール方法
-  TSVN_Add_LvPlugin.vi、TSVN_Commit_LvPlugin.vi、TSVN_Log_LvPlugin.vi、TSVN_Export_LvPlugin.viの
+### 1. VIPM Package からインストール
+VIPM 対応のパッケージを用意しました。
+LabVIEW2014以上であれば、VIPM PackageManager を使ってインストールできます。
+
+パッケージファイルを以下の場所から、ダウンロードしてください。
+https://github.com/alucky4416/TSVN_LvPlugin/releases
+
+パッケージファイルをダブルクリックすると、VIPM PackageManagerが起動します。
+Install ボタンで、インストールしてください。
+インストール後、LabVIEWツールメニューに "TSVN_Plugin"が追加されます。
+その中に、"TSVN Add","TSVN Commit","TSVN Log", "TSVN Export" が表示されます。
+
+### 2.手動でインストール
+TSVN_Add_LvPlugin.vi、TSVN_Commit_LvPlugin.vi、TSVN_Log_LvPlugin.vi、TSVN_Export_LvPlugin.viの
 ４つのファイルを LabVIEW インストールフォルダの所定の場所にコピーするだけです。
 
-### インストールする場所
+#### インストールする場所
 LabVIEW 32bit版の場合、以下の場所にファイルをコピーします。
 
 
